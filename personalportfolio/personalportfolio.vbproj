@@ -57,9 +57,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="img\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -89,6 +87,7 @@
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
     <Content Include="humans.txt" />
+    <Content Include="img\jay-logo.png" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
