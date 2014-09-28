@@ -90,6 +90,9 @@
     <Content Include="github.html" />
     <Content Include="humans.txt" />
     <Content Include="img\jay-logo.png" />
+    <Content Include="img\project-1.png" />
+    <Content Include="img\project-2.png" />
+    <Content Include="img\project-3.jpg" />
     <Content Include="index.html" />
     <Content Include="js\foundation.min.js" />
     <Content Include="js\foundation\foundation.abide.js" />
