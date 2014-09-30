@@ -1,4 +1,8 @@
 ﻿body {
+    background-attachment:scroll;
+    background-image:url("background-image.gif");
+    
+    background-repeat:no-repeat;
 }
 .logo{
     max-width:50%;

@@ -89,6 +89,7 @@
     <Content Include="css\reset.css" />
     <Content Include="github.html" />
     <Content Include="humans.txt" />
+    <Content Include="img\background-image.gif" />
     <Content Include="img\jay-logo.png" />
     <Content Include="img\project-1.png" />
     <Content Include="img\project-2.png" />

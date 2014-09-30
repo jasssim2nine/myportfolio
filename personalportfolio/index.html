@@ -9,15 +9,15 @@
     <link href="css/foundation.min.css" rel="stylesheet" />
     <link href="css/main.css" rel="stylesheet" />
 </head>
-<body>
+<body >
     <!--Adding a Logo-->
     <div class="row">
-        <div id="logo" class="small-4 columns">
+        <div id="logo" class="small-4 end columns">
             <img src="img/jay-logo.png" height="150" width="150" />
         </div>
         <!--End of logo-->
         <!--Header Section-->
-        <header class="small-8 columns">
+        <header class="small-8 end columns">
             <h1>Welcome</h1>
             <h2>My Portfolio</h2>
         </header>
@@ -47,7 +47,7 @@
 
     </div>
     <!--Orbit Slider-->
-    <div class="small-6 small-offset-3 column">
+    <div class="small-6 small-offset-3 medium-centered column small-offset-3" >
         <div class="row">
             <div class="orbit-container">
                 <ul data-orbit class="example-orbit">
@@ -55,34 +55,49 @@
 
 
                         <img src="img/project-1.png" height="500" width="800" />
-                        <div class="orbit-caption">
-                            HTML page using html & css
+                        <div class="orbit-caption  hide-for-small-only">
+                            HTML page using HTML5 and CSS
                         </div>
                     </li>
                     <li>
                         <img src="img/project-2.png" height="500" width="800" />
-                        <div class="orbit-caption">
-                            Registration form using HTML,PHP and Database
+                        <div class="orbit-caption hide-for-small-only">
+                            Registration using PHP
                         </div>
                     </li>
                     <li>
-                        <img src="img/project-3.jpg" height="500" width="685" />
-                        <div class="orbit-caption">
+
+                        <img src="img/project-3.jpg" height="600" width="680"/>
+                        <div class="orbit-caption hide-for-small-only">
                             Adruino Solar Tracker
                         </div>
                     </li>
                 </ul>
 
             </div>
+            <div class="row">
+                <div class="small-6 small-offset-3 medium-centered column end">
+                    <p>
+                        My name is <i><strong>JASIM MEHDI ALI KHAN</strong> </i>.
 
+                    </p>
+                </div>
+
+            </div> 
         </div>
+        </div>
+    <div class="row">
+        <div class="small-6 small-offset-3 medium-centered column end" >
 
+
+    </div>
+        </div>
         <!--Footer-->
         <div class="row" id=" footer">
-            <div class="small-6 small-offset-3 columns">
+            <div class="small-6 small-offset-3 medium-centered column end ">
                 <h6>Copyright Jasim Mehdi Ali Khan&copy;2014</h6>
             </div>
-
+          
 
         </div>
         <!--Java Script Section-->
@@ -91,7 +106,9 @@
         <script>
             $(document).foundation(
                 {
+
                     orbit: {
+
                         animation: 'slide',
                         timer_speed: 2000,
                         pause_on_hover: false,
@@ -99,7 +116,9 @@
                         navigation_arrows: true,
                         bullets: false
                     }
+                             
                 }
+            
                 );
         </script>
         <script src="js/main.js"></script>
