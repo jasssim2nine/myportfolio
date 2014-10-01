@@ -82,14 +82,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About Me.html" />
     <Content Include="css\foundation.css" />
     <Content Include="css\foundation.min.css" />
     <Content Include="css\main.css" />
     <Content Include="css\reset.css" />
-    <Content Include="github.html" />
     <Content Include="humans.txt" />
-    <Content Include="img\background-image.gif" />
+    <Content Include="img\background-image.png" />
     <Content Include="img\facebook.png" />
     <Content Include="img\github.png" />
     <Content Include="img\gmail.png" />
@@ -124,6 +122,8 @@
     <Content Include="js\vendor\modernizr.js" />
     <Content Include="js\vendor\placeholder.js" />
     <Content Include="Know Me.html" />
+    <Content Include="github.html" />
+    <Content Include="About-Me.html" />
     <Content Include="Projects.html" />
     <Content Include="robots.txt" />
     <Content Include="Services.html" />

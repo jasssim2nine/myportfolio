@@ -1,6 +1,7 @@
 ﻿body {
     background-attachment:scroll;
-    
+    background-color: lightgoldenrodyellow;
+
     
     background-repeat:no-repeat;
 }
@@ -10,4 +11,23 @@
 }
 .panel{
     background-color:whitesmoke;
+}
+
+div#tagline p
+{
+    text-justify:auto;
+    text-decoration: double;
+   font-size:22px;
+    text-align:right;
+   font-family: 'Dosis', sans-serif;
+}
+div#tagline h5
+{
+    font-family: 'Chewy', cursive;
+    text-align:left;
+    font-size: 25px;
+
+}
+h6,h4{
+    text-align:center;
 }
