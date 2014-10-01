@@ -31,3 +31,7 @@ div#tagline h5
 h6,h4{
     text-align:center;
 }
+div#table-projects
+{
+    text-align:left;
+}
